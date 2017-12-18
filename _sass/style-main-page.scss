@@ -1,0 +1,112 @@
+// General CSS
+
+body{
+  background-color: #ddd;
+}
+
+.cell{
+  display: flex;
+}
+
+.grid-y.main-grid{
+  height: calc(100vh - 4.5rem);
+}
+
+.grid-container{
+  padding: 0;
+  background-color: #9d9db3;
+}
+
+h6{
+  margin: 0;
+  color: #eee;
+  width: 100%;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  flex-basis: 20rem;
+}
+
+// Custom CSS ===========================
+
+
+
+.cell.audio-buttons{
+  flex: 1;
+  padding: 6rem 2rem;
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/20/16/55/fractal-1101414_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+  filter: contrast(70%);
+  transition: 0.5s;
+  @media screen and (min-width: 640px) {
+    padding: 4rem 8rem;
+  }
+  .grid-x{
+    align-items: center;
+    flex: 1;
+  }
+  .small-12{
+    justify-content: space-around;
+    display: flex;
+  }
+  img{
+    height: 3.5rem;
+    margin: 1rem;
+  }
+}
+
+header{
+  background-color: #37374c;
+  padding: 1rem 0;
+  border-bottom: 1px solid #222;
+  box-shadow: 0px 5px 10px 0px #333;
+  z-index: 1;
+  h1{
+    // margin: 0;
+    color: #e8b342;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: #e8b342;
+    letter-spacing: 5px;
+    // font-family: 'Paytone One', sans-serif;
+    // font-family: 'Anton', sans-serif;
+    font-family: 'Nova Mono', monospace;
+  }
+}
+
+audio{
+    display:none;
+}
+
+
+
+footer{
+  border-top: 1px solid #393939;
+  padding: 1.5rem 2rem;
+  padding-bottom: 3rem;
+  background-color: #404056;
+  .what_is-container{
+    flex-basis: 30rem;
+  }
+  .what_is-title,
+  .what_is-text{
+    justify-content: center;
+  }
+  hr{
+    margin-top: 1rem;
+  }
+  p{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: #999;
+    text-align: justify;
+    margin: 0;
+  }
+}
