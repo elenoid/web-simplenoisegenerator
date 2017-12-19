@@ -9,7 +9,7 @@ body{
 }
 
 .grid-y.main-grid{
-  height: calc(100vh - 4.5rem);
+  height: calc(100vh - 6rem);
 }
 
 .grid-container{
@@ -43,7 +43,13 @@ h6{
   filter: contrast(70%);
   transition: 0.5s;
   @media screen and (min-width: 640px) {
-    padding: 4rem 8rem;
+    padding: 3rem 8rem;
+  }
+  @media screen and (min-width: 840px) {
+    padding: 3rem 10rem;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 3rem 13rem;
   }
   .grid-x{
     align-items: center;
@@ -56,6 +62,27 @@ h6{
   img{
     height: 3.5rem;
     margin: 1rem;
+  }
+}
+
+.cell.stop-button{
+  align-self: flex-end;
+  button{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-basis: 400px;
+    padding: 8px;
+    border: 5px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  h6{
+    color: #000;
+    font-family: 'Nova Mono', monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
   }
 }
 
@@ -88,7 +115,7 @@ audio{
 footer{
   border-top: 1px solid #393939;
   padding: 1.5rem 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   background-color: #404056;
   .what_is-container{
     flex-basis: 30rem;
@@ -99,6 +126,7 @@ footer{
   }
   hr{
     margin-top: 1rem;
+    margin-bottom: 3rem;
   }
   p{
     font-family: 'Raleway', sans-serif;
@@ -108,5 +136,6 @@ footer{
     color: #999;
     text-align: justify;
     margin: 0;
+    margin-bottom: 2rem;
   }
 }
