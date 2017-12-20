@@ -29,13 +29,22 @@ h6{
   flex-basis: 20rem;
 }
 
+p{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #999;
+  text-align: justify;
+}
+
 // Custom CSS ===========================
 
 
 
 .cell.audio-buttons{
   flex: 1;
-  padding: 6rem 2rem;
+  padding: 1.5rem 2rem;
   background-image: url(https://cdn.pixabay.com/photo/2015/12/20/16/55/fractal-1101414_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,8 +69,11 @@ h6{
     display: flex;
   }
   img{
-    height: 3.5rem;
+    height: 2.5rem;
     margin: 1rem;
+    @media screen and (min-width: 640px) {
+      height: 3.5rem;
+    }
   }
 }
 
@@ -76,6 +88,7 @@ h6{
     border: 5px solid #000;
     border-radius: 5px;
     text-align: center;
+    outline: none;
     text-decoration: none;
   }
   h6{
@@ -96,13 +109,20 @@ header{
     // margin: 0;
     color: #e8b342;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #e8b342;
     letter-spacing: 5px;
-    // font-family: 'Paytone One', sans-serif;
-    // font-family: 'Anton', sans-serif;
     font-family: 'Nova Mono', monospace;
+    @media screen and (min-width: 640px) {
+      font-size: 3.5rem;
+    }
+  }
+  h6{
+    font-size: 0.6rem;
+    @media screen and (min-width: 640px) {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -115,7 +135,7 @@ audio{
 footer{
   border-top: 1px solid #393939;
   padding: 1.5rem 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   background-color: #404056;
   .what_is-container{
     flex-basis: 30rem;
@@ -129,13 +149,14 @@ footer{
     margin-bottom: 3rem;
   }
   p{
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
-    line-height: 1.8rem;
-    color: #999;
-    text-align: justify;
     margin: 0;
     margin-bottom: 2rem;
+  }
+  .license{
+    color: #333;
+    text-align: justify;
+    a{
+      color: #333;
+    }
   }
 }
