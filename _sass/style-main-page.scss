@@ -45,7 +45,7 @@ p{
 .cell.audio-buttons{
   flex: 1;
   padding: 1.5rem 2rem;
-  background-image: url(https://cdn.pixabay.com/photo/2015/12/20/16/55/fractal-1101414_960_720.jpg);
+  background-image: url(../img/fractal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(50%);
@@ -75,9 +75,12 @@ p{
       height: 3.5rem;
     }
   }
+  img:hover{
+
+  }
 }
 
-.cell.stop-button{
+.stop-button{
   align-self: flex-end;
   button{
     margin: 1rem;
@@ -85,14 +88,14 @@ p{
     justify-content: center;
     flex-basis: 400px;
     padding: 8px;
-    border: 5px solid #000;
+    border: 3px solid  #e8b342;;
     border-radius: 5px;
     text-align: center;
     outline: none;
     text-decoration: none;
   }
   h6{
-    color: #000;
+    color:  #e8b342;
     font-family: 'Nova Mono', monospace;
     font-weight: 600;
     font-size: 1.5rem;
@@ -107,7 +110,6 @@ header{
   z-index: 1;
   h1{
     // margin: 0;
-    color: #e8b342;
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
@@ -134,19 +136,25 @@ audio{
 
 footer{
   border-top: 1px solid #393939;
-  padding: 1.5rem 2rem;
+  padding: 0.3rem 2rem;
   padding-bottom: 1.5rem;
   background-color: #404056;
-  .what_is-container{
+  .what_is-container,
+  .license-container{
     flex-basis: 30rem;
   }
   .what_is-title,
-  .what_is-text{
+  .what_is-text,
+  .license,
+  .stop-button{
     justify-content: center;
+  }
+
+  .what_is-title{
+    margin-top: 2rem;
   }
   hr{
     margin-top: 1rem;
-    margin-bottom: 3rem;
   }
   p{
     margin: 0;
