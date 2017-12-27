@@ -6,7 +6,7 @@ function play(sound){
 function stopAudio(){
    var audio = document.getElementById("audio");
    audio.pause();
-   $('#audio-background').css('background-image', 'url(../img/fractal.jpg)');
+   $('#audio-background').css('background-image', 'url(img/fractal.jpg)');
    $(document.body).css('background-image', 'none');
 }
 
