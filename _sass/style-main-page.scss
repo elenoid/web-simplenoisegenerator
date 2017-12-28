@@ -1,7 +1,7 @@
 // General CSS
 
 body{
-  background-color: #ddd;
+  background-color: #e5e4e8;
 }
 
 .cell{
@@ -9,7 +9,7 @@ body{
 }
 
 .grid-y.main-grid{
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 10rem);
 }
 
 .grid-container{
@@ -19,7 +19,7 @@ body{
 
 h6{
   margin: 0;
-  color: #eee;
+  color: #fff;
   width: 100%;
   letter-spacing: 3px;
   text-align: center;
@@ -34,7 +34,7 @@ p{
   letter-spacing: 1px;
   font-weight: 300;
   line-height: 1.8rem;
-  color: #999;
+  color: #ccc;
   text-align: justify;
 }
 
@@ -42,71 +42,11 @@ p{
 
 
 
-.cell.audio-buttons{
-  flex: 1;
-  padding: 1.5rem 2rem;
-  background-image: url(../img/fractal.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: grayscale(50%);
-  filter: contrast(70%);
-  transition: 0.5s;
-  @media screen and (min-width: 640px) {
-    padding: 3rem 8rem;
-  }
-  @media screen and (min-width: 840px) {
-    padding: 3rem 10rem;
-  }
-  @media screen and (min-width: 1024px) {
-    padding: 3rem 13rem;
-  }
-  .grid-x{
-    align-items: center;
-    flex: 1;
-  }
-  .small-12{
-    justify-content: space-around;
-    display: flex;
-  }
-  img{
-    height: 2.5rem;
-    margin: 1rem;
-    @media screen and (min-width: 640px) {
-      height: 3.5rem;
-    }
-  }
-  img:hover{
-
-  }
-}
-
-.stop-button{
-  align-self: flex-end;
-  button{
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-basis: 400px;
-    padding: 8px;
-    border: 3px solid  #e8b342;;
-    border-radius: 5px;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-  }
-  h6{
-    color:  #e8b342;
-    font-family: 'Nova Mono', monospace;
-    font-weight: 600;
-    font-size: 1.5rem;
-  }
-}
-
 header{
   background-color: #37374c;
   padding: 1rem 0;
   border-bottom: 1px solid #222;
-  box-shadow: 0px 5px 10px 0px #333;
+  box-shadow: 0px 5px 10px 0px #252429;
   z-index: 1;
   h1{
     // margin: 0;
@@ -133,15 +73,106 @@ audio{
 }
 
 
+.cell.audio-buttons{
+  flex: 1;
+  padding: 1.5rem 2rem;
+  background-image: url(../img/fractal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+  @media screen and (min-width: 640px) {
+    padding: 3rem 8rem;
+  }
+  @media screen and (min-width: 840px) {
+    padding: 3rem 10rem;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 3rem 13rem;
+  }
+  .grid-x{
+    align-items: center;
+    flex: 1;
+  }
+  .small-12{
+    justify-content: space-around;
+    display: flex;
+  }
+  img{
+    cursor: pointer;
+    height: 2.5rem;
+    margin: 1rem;
+    opacity: 0.6;
+    @media screen and (min-width: 640px) {
+      height: 3.5rem;
+    }
+  }
+  :hover{
+    opacity: 1;
+  }
+}
+
+.stop-button button:hover{
+  opacity: 1;
+}
+
+.stop-button{
+  align-self: flex-end;
+  button{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-basis: 26rem;
+    padding: 8px;
+    border: 3px solid  #e8b342;;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  h6{
+    color:  #e8b342;
+    font-family: 'Nova Mono', monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+
+.volume-control{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  align-self: flex-end;
+  justify-content: center;
+
+  .volume-container{
+    display: flex;
+    flex-basis: 26rem;
+  }
+  p{
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+  input{
+    flex: 5;
+    margin: 0 0.5rem;
+  }
+}
+
 
 footer{
   border-top: 1px solid #393939;
-  padding: 0.3rem 2rem;
-  padding-bottom: 1.5rem;
+  padding: 0.5rem 2rem;
+  padding-bottom: 4rem;
   background-color: #404056;
   .what_is-container,
   .license-container{
-    flex-basis: 30rem;
+    flex-basis: 26rem;
+    p{
+      margin: 0;
+      margin-bottom: 2rem;
+    }
   }
   .what_is-title,
   .what_is-text,
@@ -156,17 +187,13 @@ footer{
   hr{
     margin-top: 1rem;
   }
-  p{
-    margin: 0;
-    margin-bottom: 2rem;
-  }
   .license{
     font-family: 'Raleway', sans-serif;
     font-size: 0.9rem;
-    color: #555;
+    color: #777;
     text-align: justify;
     a{
-      color: #555;
+      color: #777;
     }
   }
 }

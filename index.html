@@ -21,11 +21,10 @@ layout: default
           <img onclick="play('sound/Focus Mind White Noise.mp3');changeImage('img/study.jpg');" src="img/mortarboard.svg" alt="add">
           <img onclick="play('sound/Rain on Tent.mp3');changeImage('img/camping2.jpg');" src="img/tent.svg" alt="add">
         </div>
-
         <div class="cell small-12">
-          <img src="img/cancel.svg" alt="cancel">
-          <img src="img/cancel.svg" alt="cancel">
-          <img src="img/cancel.svg" alt="cancel">
+          <img src="img/soon.svg" alt="cancel">
+          <img src="img/soon.svg" alt="cancel">
+          <img src="img/soon.svg" alt="cancel">
         </div>
       </div>
     </div>
@@ -33,7 +32,13 @@ layout: default
   <footer>
     <div class="grid-x footer">
       <div class="cell small-12 stop-button">
-        <button onclick="stopAudio()"><h6>stop</h6></button>
+        <button onclick="stopAudio()"><h6>Play/Pause</h6></button>
+      </div>
+      <div class="cell small-12 volume-control">
+        <div class="volume-container">
+          <p>Volume</p>
+          <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+        </div>
       </div>
       <div class="cell what_is-title small-12">
         <div class="what_is-container">

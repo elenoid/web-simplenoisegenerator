@@ -1,60 +1,86 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g>
-	<g>
-		<path d="M451.248,194.567h-16.229v121.505h16.229c33.498,0,60.752-27.254,60.752-60.753
-			C512,221.82,484.746,194.567,451.248,194.567z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M379.76,194.567v-76.671H253.456v123.107H89.312v-51.525c0-19.022-15.476-34.498-34.499-34.498H34.499
-			C15.476,154.98,0,170.456,0,189.478v133.043c0,19.022,15.476,34.499,34.499,34.499h20.314c19.022,0,34.499-15.476,34.499-34.499
-			v-51.525h164.144v124.945H379.76V316.07h25.266V194.567H379.76z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M345.26,15.008h-57.305c-19.022,0-34.499,15.476-34.499,34.498v38.396H379.76V49.506
-			C379.76,30.484,364.284,15.008,345.26,15.008z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M253.456,425.936v36.557c0,19.022,15.476,34.499,34.499,34.499h57.305c19.022,0,34.499-15.476,34.499-34.499v-36.557
-			H253.456z"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="aeroplane.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"><metadata
+     id="metadata61"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs59" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="964"
+     inkscape:window-height="480"
+     id="namedview57"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Capa_1" /><g
+     id="g6"
+     style="fill:#ffffff"><g
+       id="g4"
+       style="fill:#ffffff"><path
+         d="M451.248,194.567h-16.229v121.505h16.229c33.498,0,60.752-27.254,60.752-60.753    C512,221.82,484.746,194.567,451.248,194.567z"
+         id="path2"
+         style="fill:#ffffff" /></g></g><g
+     id="g12"
+     style="fill:#ffffff"><g
+       id="g10"
+       style="fill:#ffffff"><path
+         d="M379.76,194.567v-76.671H253.456v123.107H89.312v-51.525c0-19.022-15.476-34.498-34.499-34.498H34.499    C15.476,154.98,0,170.456,0,189.478v133.043c0,19.022,15.476,34.499,34.499,34.499h20.314c19.022,0,34.499-15.476,34.499-34.499    v-51.525h164.144v124.945H379.76V316.07h25.266V194.567H379.76z"
+         id="path8"
+         style="fill:#ffffff" /></g></g><g
+     id="g18"
+     style="fill:#ffffff"><g
+       id="g16"
+       style="fill:#ffffff"><path
+         d="M345.26,15.008h-57.305c-19.022,0-34.499,15.476-34.499,34.498v38.396H379.76V49.506    C379.76,30.484,364.284,15.008,345.26,15.008z"
+         id="path14"
+         style="fill:#ffffff" /></g></g><g
+     id="g24"
+     style="fill:#ffffff"><g
+       id="g22"
+       style="fill:#ffffff"><path
+         d="M253.456,425.936v36.557c0,19.022,15.476,34.499,34.499,34.499h57.305c19.022,0,34.499-15.476,34.499-34.499v-36.557    H253.456z"
+         id="path20"
+         style="fill:#ffffff" /></g></g><g
+     id="g26" /><g
+     id="g28" /><g
+     id="g30" /><g
+     id="g32" /><g
+     id="g34" /><g
+     id="g36" /><g
+     id="g38" /><g
+     id="g40" /><g
+     id="g42" /><g
+     id="g44" /><g
+     id="g46" /><g
+     id="g48" /><g
+     id="g50" /><g
+     id="g52" /><g
+     id="g54" /></svg>
